@@ -1,8 +1,7 @@
 // Formas de imprimir en pantalla 
 // guardándolo previamente en una variable 
 public class Out {
-    @SuppressWarnings("un
-    used")
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         String name = "Evelyn";
         String surname = "Aguilar";
