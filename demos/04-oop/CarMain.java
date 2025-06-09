@@ -17,7 +17,7 @@ public class CarMain {
         car1.color,
         car1.isAuto);
 
-        System.out.printf("Coche 2: Marca: %s | Tipo: %c | Asiento: %d | Puertas: %d | Color: %s | Automático: %b%n",
+        System.out.printf("Coche 2: Marca: %s  Tipo: %c | Asiento: %d | Puertas: %d | Color: %s | Automático: %b%n",
         car2.brand,
         car2.type,
         car2.numSeats,
