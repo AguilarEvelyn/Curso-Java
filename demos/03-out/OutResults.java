@@ -1,6 +1,5 @@
 
 public class OutResults{
-    @SuppressWarnings("unused")
     public static void main(String[] args) {
         String name = "Evelyn";
         String surname = "Aguilar";
