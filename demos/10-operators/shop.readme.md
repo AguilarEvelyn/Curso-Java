@@ -11,3 +11,14 @@ Si se compran entre 10 y 20 paquetes, se aplica un descuento del 10% y se indica
 Si se compran más de 20 paquetes, se aplica un descuento del 15% y se indica que el envío es gratuito.
 
 El programa muestra el total a pagar, incluyendo el coste del envío y el descuento aplicado.
+
+## Aplicacion del caso anterior 
+
+preguntar el numero de paquetes de cada tipo comprados
+El coste de cada paquete sera distintos en cada caso
+.
+
+Aplicar una promoción del 10% SI SE COMPRA POR UN VALOR SUPERIOR A 1000€.
+Si no llega a 1000€ indicar cuanto falta para llegar a la promoción.
+
+
