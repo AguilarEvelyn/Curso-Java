@@ -1,5 +1,3 @@
-package base;
-
 public class Person {
 
     // Propiedades static o de clase
