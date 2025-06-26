@@ -1,12 +1,12 @@
 package game;
 
-import base.Dog;
+import animals.Dog;
+import animals.Pet;
 import base.Person;
-import base.Pet;
 import base.Square;
-//import game.Role;
-//import game.Species;
-
+import game.Character;
+import game.Role;
+import game.Species;
 
 public class App {
 
@@ -31,16 +31,16 @@ public class App {
 
     static void prepareGame() {
         Character char1 = new Character("Pepe", Species.ELFO, 100, 50, Role.MAGO, false);
-      //  char1.showCharacter();
+        char1.showCharacter();
         Character char2 = new Character("Pepe", Species.ORCO, 120, 500, Role.PEON, false);
-       // char2.showCharacter();
+        char2.showCharacter();
         
-       // char1.renameInvalidCharacters("Elfo Pepe");
+        char1.renameInvalidCharacters("Elfo Pepe");
 
-       // Character.showList();
-        //char2.renameInvalidCharacters("Orco Pepe");
-       // char2.showCharacter();
-        //Character.showList();
+        Character.showList();
+        char2.renameInvalidCharacters("Orco Pepe");
+        char2.showCharacter();
+        Character.showList();
     }
 
     public static void playPets() {
@@ -66,7 +66,7 @@ public class App {
         System.out.println(sq instanceof Object);
         System.out.println(type instanceof Object);
         System.out.println(type); 
-        System.out.println(sq);
+        System.out.println(sq.toString());
 
         Square sq2 = new Square(10);
         System.out.println(sq == sq2);
